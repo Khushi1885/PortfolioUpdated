@@ -423,7 +423,7 @@ She's a final-year student actively looking for internships and entry-level AI/f
       action: () => {
         const a = document.createElement('a');
         a.href = 'assets/Khushi_Resume_Updated.pdf';
-        a.download = 'Khushi_Resume_Updated.pdf';
+        a.download = 'assets/Khushi_Resume_Updated.pdf';
         document.body.appendChild(a);
         a.click();
         a.remove();
